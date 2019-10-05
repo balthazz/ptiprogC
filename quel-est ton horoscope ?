@@ -1,0 +1,78 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+    char signeAstro[50];
+
+    printf("quel est votre signe astrologique?\n");
+     scanf("%s", signeAstro);
+     printf("vous etes %s\n", signeAstro);
+
+     if (strcmp(signeAstro,"belier")==0)
+     {
+          printf("Vous irez manifester pour la liberation immediate des epoux Balkany victimes de la répression etatique contre leur mode de vie latin Votre soutien leur ira droit au cœur mais des agents du fisc vous catalogueront comme « ennemi a abattre  Soyez vigilants si vous croisez des comptables\n");
+     }
+     else if (strcmp(signeAstro,"gemeaux")==0)
+     {
+         printf("Vous ferez des avances a nabilla, attention aux coups de couteau dans le dos\n");
+     }
+
+    else if (strcmp(signeAstro,"verseau")==0)
+    {
+        printf("Vous recevrez un déchet d’oiseau sur la tête en vous rendant au travail à bicyclette C’est votre faute avec ce temps de chien vous auriez dû prendre le métro et l’autobus même si vous étiez assis à coté d’un tromboniste\n");
+    }
+
+    else if (strcmp(signeAstro,"poisson")==0)
+    {
+        printf("vous serez débordé,ne soyez pas la goutte d'eau qui fait deborder le vase ou vous le regretterez\n");
+    }
+
+    else if (strcmp(signeAstro,"vierge")==0)
+    {
+        printf("vierge ???? seulement si on oublie la soiree senegalaise de vendredi dernier\n");
+    }
+
+    else if (strcmp(signeAstro,"cancer")==0)
+    {
+        printf("la maladie vous guette,sortez couvert avant d'attrapper une bonne mst des familles\n");
+    }
+
+    else if (strcmp(signeAstro,"sagittaire")==0)
+    {
+        printf("un peu de serieux ne vous ferez pas de mal pour valider tous les modules\n" );
+    }
+
+    else if (strcmp(signeAstro,"taureau")==0)
+    {
+        printf("amour : cupidon n'est pas de la partie c'est peine perdue, argent: c'est la hess\n" );
+    }
+
+    else if (strcmp(signeAstro,"lion")==0)
+    {
+        printf("lasse de faire la une des paquets de cereales vous decidez de prendre les devant en signant un contrat chez nesquik\n" );
+    }
+
+    else if (strcmp(signeAstro,"scorpion")==0)
+    {
+        printf("vous manquez de paillette dans votre vie, pour un bon rencard appelez le 0610994251\n" );
+    }
+else if (strcmp(signeAstro,"verseau")==0)
+    {
+        printf("rejoins vite l'equipe de hand feminin, la super coach marie va mettre des paillettes dans ta vie\n" );
+    }
+
+else if (strcmp(signeAstro,"balance")==0)
+    {
+        printf("ferme la porte y'a la pookie....non sans dec' fais gaffe un peu a ce que tu dis sinon le papa noel ne passera pas chez toi :( \n" )
+    }
+else if (strcmp(signeAstro,"capricorne")==0)
+    {
+        printf("amour : Une annee a vous faire devenir chevre, continuez de sauter dans les pres mais attention aux rencontres faites sur fesse-bouc...\n" );
+    }
+
+return 0;
+
+
+}
